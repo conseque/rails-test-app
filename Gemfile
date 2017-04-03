@@ -26,11 +26,12 @@ gem 'sidekiq-scheduler', '~> 2.0'
 gem 'sidekiq-failures'
 gem 'redis-namespace'
 
+gem 'listen', '~> 3.0.5'
+
+
 group :development, :test do
   # Console
   gem 'rails_dt'
-  gem 'listen', '~> 3.0.5'
-
 end
 
 group :development do
