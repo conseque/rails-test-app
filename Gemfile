@@ -29,6 +29,8 @@ gem 'redis-namespace'
 group :development, :test do
   # Console
   gem 'rails_dt'
+  gem 'listen', '~> 3.0.5'
+
 end
 
 group :development do
